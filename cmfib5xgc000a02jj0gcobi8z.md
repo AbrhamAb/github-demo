@@ -10,7 +10,7 @@ tags: tips-and-tricks, peace-of-mind
 
 ## **Introduction**
 
-Feeling overwhelmed by work, screens, or daily routines? Sometimes the best way to reset isn’t a fancy retreat or expensive gadget — it’s as simple as stepping outside. Spending even a few minutes outdoors can refresh your mind, boost your mood, and help you feel more balanced. Here are five simple ways to recharge without leaving your neighborhood.
+Feeling overwhelmed by work, screens, or daily routines? Sometimes the best way to reset isn’t a fancy retreat or expensive gadget it’s as simple as stepping outside. Spending even a few minutes outdoors can refresh your mind, boost your mood, and help you feel more balanced. Here are five simple ways to recharge without leaving your neighborhood.
 
 ## **1\. Take a Short Walk in Nature**
 
