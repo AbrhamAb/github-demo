@@ -9,7 +9,7 @@ tags: javascript, technology, developer
 
 ---
 
-**1\. Introduction**
+## **1\. Introduction**
 
 * **Hook:** Start with a relatable problem: "Have you ever declared a variable and found it was `undefined` or caused an error in an unexpected place? You’ve just met JavaScript scope."
     
@@ -18,7 +18,7 @@ tags: javascript, technology, developer
 * **Why it matters:** Emphasize that mastering scope is essential for writing predictable, efficient, and bug-free code.
     
 
-**2\. What is Scope?**
+## **2\. What is Scope?**
 
 * **Simple definition:** "Scope is the context in which variables are declared and can be accessed."
     
@@ -27,11 +27,11 @@ tags: javascript, technology, developer
 * **Types:** Briefly introduce Global, Function, and Block scope.
     
 
-**3\. Types of Scope in JavaScript**
+## **3\. Types of Scope in JavaScript**
 
-* **Global Scope:**
-    
-    * **Definition:** Variables declared outside any function or block.
+### **Global Scope:**
+
+* * **Definition:** Variables declared outside any function or block.
         
     * **Example:**
         
@@ -44,39 +44,41 @@ tags: javascript, technology, developer
         
     * **Pitfalls:** Polluting the global namespace can lead to naming collisions and bugs.
         
-* **Local Scope:**
-    
-    * **Function Scope:**
-        
-        * **Definition:** Variables declared inside a function using `var`.
-            
-        * **Example:**
-            
-            ```javascript
-            function myFunction() {
-              var functionScoped = 'I exist only here';
-            }
-            console.log(functionScoped); // Error!
-            ```
-            
-    * **Block Scope:**
-        
-        * **Definition:** Variables declared inside `{}` with `let` or `const`.
-            
-        * **Example:**
-            
-            ```javascript
-            if (true) {
-              let blockScoped = 'I exist only in this block';
-              const alsoBlockScoped = 'Me too!';
-            }
-            console.log(blockScoped); // Error!
-            ```
-            
-        * **Key difference:** Show how `var` is function-scoped, while `let`/`const` are block-scoped.
-            
 
-**4\. Hoisting in JavaScript**
+### **Local Scope:**
+
+* **Function Scope:**
+    
+    * **Definition:** Variables declared inside a function using `var`.
+        
+    * **Example:**
+        
+        ```javascript
+        function myFunction() {
+          var functionScoped = 'I exist only here';
+        }
+        console.log(functionScoped); // Error!
+        ```
+        
+
+### **Block Scope:**
+
+* * **Definition:** Variables declared inside `{}` with `let` or `const`.
+        
+    * **Example:**
+        
+        ```javascript
+        if (true) {
+          let blockScoped = 'I exist only in this block';
+          const alsoBlockScoped = 'Me too!';
+        }
+        console.log(blockScoped); // Error!
+        ```
+        
+    * **Key difference:** Show how `var` is function-scoped, while `let`/`const` are block-scoped.
+        
+
+## **4\. Hoisting in JavaScript**
 
 * **Explanation:** JavaScript moves variable and function declarations to the top of their scope during compilation.
     
@@ -97,7 +99,7 @@ tags: javascript, technology, developer
 * **Best practice:** Always declare variables at the top of their scope.
     
 
-**5\. Lexical Scope and Closures**
+## **5\. Lexical Scope and Closures**
 
 * **Lexical Scope:** Variables are accessible in their containing function and any nested functions.
     
@@ -121,7 +123,7 @@ tags: javascript, technology, developer
         ```
         
 
-**6\. Common Scope-Related Errors**
+## **6\. Common Scope-Related Errors**
 
 * **Undeclared variables:** Accidentally creating global variables.
     
@@ -130,16 +132,16 @@ tags: javascript, technology, developer
 * **Tips:** Always use `'use strict'`, avoid `var`, and use clear, unique variable names.
     
 
-**7\. Tools and Techniques**
+## **7\. Tools and Techniques**
 
-* `'use strict'`: Prevents accidental global variables.
+* ## `'use strict'`: Prevents accidental global variables.
     
 * **Linters (ESLint):** Catch scope-related errors before they happen.
     
 * **Browser DevTools:** Use the debugger to see scope chains.
     
 
-**8\. Conclusion**
+## **8\. Conclusion**
 
 * **Recap:** Scope controls variable accessibility; master global, function, and block scope.
     
